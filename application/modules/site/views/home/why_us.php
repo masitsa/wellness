@@ -14,7 +14,7 @@
                                 <div class="subtitle notViewed wow fadeInRight" data-wow-delay="0.5s" data-wow-offset="20">Why <span class="iconlist-mid-title">Choose</span> Us</div>
                                 <ul>
                                     <li class="notViewed wow fadeInDown" data-wow-delay="0.5s" data-wow-offset="50">
-                                    <i class="icon-hospital2 icon-list-icons"></i>
+                                    <i class="fa fa-medkit icon-list-icons"></i>
                                     <div class="iconlist-content">
                                         
                                         <div class="iconlist-title">Promote healthy lifestyle by sharing information.</div>

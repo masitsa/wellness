@@ -10,6 +10,7 @@
 
                         if ($departments->num_rows() > 0)
                         {
+							$delay = 0.6;
                             foreach ($departments->result() as $row)
                             {
                                 $department_id = $row->department_id;
@@ -29,7 +30,7 @@
                                 $categories = '';
                                 $count = 0;
                                 $result .= ' <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                                             <div class="icon-box-3 wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="150">
+                                             <div class="icon-box-3 wow fadeInUp" data-wow-delay="'.$delay.'s" data-wow-offset="150">
                                                 <div class="icon-boxwrap2"><i class="fa fa-medkit icon-box-back2"></i></div>
                                                 <div class="icon-box2-title">'.$department_name.'</div>
                                                 <p>'.$mini_desc.'..</p>
@@ -42,6 +43,7 @@
                                              </div>   
                                             </div>';
 
+								$delay += 0.6;
 
                             }
                         }
@@ -54,7 +56,7 @@
                     
                     <!--Icon-box-start-->
                     <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-                     <div class="icon-box-3 notViewed wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="150">
+                     <div class="icon-box-3 notViewed wow fadeInUp" data-wow-delay="<?php echo $delay;?>s" data-wow-offset="150">
                         <div class="icon-boxwrap2"><i class="fa fa-clock-o icon-box-back2"></i></div>
                          <div class="icon-box2-title">Opening Hours</div>
                         <ul>

@@ -54,11 +54,12 @@
             
             <div id="search-overlay">
             <div class="container">
-                                <div id="close">X</div>
+            	<div id="close">X</div>
             
-                                <input id="hidden-search" type="text" placeholder="Start Typing..." autofocus autocomplete="off"  /> <!--hidden input the user types into-->
-                                <input id="display-search" type="text" placeholder="Start Typing..." autofocus autocomplete="off" /> <!--mirrored input that shows the actual input value-->
-                            </div></div>
+                    <input id="hidden-search" type="text" placeholder="Start Typing..." autofocus autocomplete="off"  /> <!--hidden input the user types into-->
+                    <input id="display-search" type="text" placeholder="Start Typing..." autofocus autocomplete="off" /> <!--mirrored input that shows the actual input value-->
+                </div>
+            </div>
                
                     
                     <!--Topbar-->
@@ -66,11 +67,11 @@
                         <div class="container">                     
                             <div class="social-wrap-head col-md-2 no-pad">
                                 <ul>
-                                <li><a href="index.html#"><i class="icon-facebook head-social-icon" id="face-head" data-original-title="" title=""></i></a></li>
-                                <li><a href="index.html#"><i class="icon-social-twitter head-social-icon" id="tweet-head" data-original-title="" title=""></i></a></li>
-                                <li><a href="index.html#"><i class="icon-google-plus head-social-icon" id="gplus-head" data-original-title="" title=""></i></a></li>
-                                <li><a href="index.html#"><i class="icon-linkedin head-social-icon" id="link-head" data-original-title="" title=""></i></a></li>
-                                <li><a href="index.html#"><i class="icon-rss head-social-icon" id="rss-head" data-original-title="" title=""></i></a></li>
+                                <li><a href="index.html#"><i class="fa fa-facebook head-social-icon" id="face-head" data-original-title="" title=""></i></a></li>
+                                <li><a href="index.html#"><i class="fa fa-twitter head-social-icon" id="tweet-head" data-original-title="" title=""></i></a></li>
+                                <li><a href="index.html#"><i class="fa fa-google-plus head-social-icon" id="gplus-head" data-original-title="" title=""></i></a></li>
+                                <li><a href="index.html#"><i class="fa fa-linkedin head-social-icon" id="link-head" data-original-title="" title=""></i></a></li>
+                                <li><a href="index.html#"><i class="fa fa-rss head-social-icon" id="rss-head" data-original-title="" title=""></i></a></li>
                                 </ul>
                             </div>                            
                             <div class="top-info-contact pull-right col-md-6">Call Us Today! +254 727535987  |    info@absolutewellness.co.ke  <div id="search" class="fa fa-search search-head"></div>

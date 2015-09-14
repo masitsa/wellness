@@ -43,14 +43,14 @@ else
                         <div class="row">
                             <!--Foot widget-->
                             <div class="col-xs-12 col-sm-6 col-md-3 foot-widget">
-                            <a href=""><img src="<?php echo base_url().'assets/'?>images/logo.png" alt="" class="img-responsive"></a>
+                            <a href=""><img src="<?php echo base_url().'assets/'?>images/logo-background.png" alt="" class="img-responsive"></a>
                             <!-- <a href=""><div class="foot-logo col-xs-12 no-pad"></div></a> -->
                             
                             <address class="foot-address">
-                                <div class="col-xs-12 no-pad"><i class="icon-globe address-icons"></i>Absolute Wellness & Nutrition Centre <br />General Accident House, 1st Floor, Right Wing</div>
-                                <div class="col-xs-12 no-pad"><i class="icon-phone2 address-icons"></i>+254 727 475992 </div>
-                                <div class="col-xs-12 no-pad"><i class="icon-file address-icons"></i>+254 731 015231</div>
-                                <div class="col-xs-12 no-pad"><i class="icon-mail address-icons"></i>info@absolutewellness.co.ke</div>
+                                <div class="col-xs-12 no-pad"><i class="fa fa-map-marker address-icons"></i>Absolute Wellness & Nutrition Centre <br />General Accident House, 1st Floor, Right Wing</div>
+                                <div class="col-xs-12 no-pad"><i class="fa fa-phone address-icons"></i>+254 727 475992 </div>
+                                <div class="col-xs-12 no-pad"><i class="fa fa-phone address-icons"></i>+254 731 015231</div>
+                                <div class="col-xs-12 no-pad"><i class="fa fa-envelope address-icons"></i>info@absolutewellness.co.ke</div>
                             </address>
                             </div>
                             

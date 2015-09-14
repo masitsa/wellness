@@ -9,7 +9,7 @@
         
         <link href="<?php echo base_url().'assets/themes/iMedica/'?>css/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
         <link href="<?php echo base_url().'assets/themes/iMedica/'?>css/animate.css" rel="stylesheet" />
-        <link href="<?php echo base_url().'assets/themes/iMedica/'?>css/font-awesome.min.css" rel="stylesheet" />
+        <link href="<?php echo base_url().'assets/themes/fontawesome/'?>css/font-awesome.min.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/themes/iMedica/'?>css/blue.css" id="style-switch" />
         <!-- REVOLUTION BANNER CSS SETTINGS -->
         <link rel="stylesheet" type="text/css" href="r<?php echo base_url().'assets/themes/iMedica/'?>s-plugin/css/settings.min.css" media="screen" />
@@ -22,7 +22,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/themes/iMedica/'?>css/inline.min.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/themes/iMedica/'?>rs-plugin/css/settings.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/themes/iMedica/'?>rs-plugin/css/settings.min.css" />
-        
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url().'assets/themes/iMedica/'?>css/custom.css"/>
         
 
     </head>
